@@ -48,3 +48,31 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+
+# Game Instructions
+
+## Overview
+The game is a tile-based challenge where players need to press tiles to reduce their value until they disappear. The goal is to achieve the highest score possible before the game ends.
+
+## Game Setup
+- The game grid consists of a 4x4 layout.
+- Initially, there are 10 random tiles with values ranging from 1 to 5.
+
+## How to Play
+1. **Press a Tile**: Tap on any tile to decrease its value by 1.
+2. **Tile Value**: If the tile's value becomes 0 after your press, it will disappear from the grid.
+3. **Score**: Each time a tile disappears, your score increases by 1.
+
+## Game Over
+- The game ends when the number of tiles on the grid reaches 16 (the maximum capacity of the grid).
+- An alert will display your final score.
+
+## Resetting the Game
+- After the game is over, you can restart by pressing the reset button, which will generate a new set of tiles and reset your score to 0.
+
+## Animations
+- When a tile is pressed and disappears, an animation will play to indicate the action, providing visual feedback to the player.
+
+## Objective
+- The objective is to clear as many tiles as possible and achieve the highest score before the game ends.
